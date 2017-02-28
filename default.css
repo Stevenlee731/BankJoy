@@ -9,4 +9,15 @@ span {
 
 #Contact {
   font-family: helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
 }
