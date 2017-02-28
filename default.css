@@ -1,15 +1,12 @@
 body {
-  margin: 40px;
+  margin: 3em;
 }
 
-span {
-  margin-right: 10px;
-  float: right;
-}
-
-#Contact {
+.contact {
   font-family: helvetica, sans-serif;
   font-size: 1.3em;
+  margin-right: 10px;
+  text-align: right;
 }
 
 a {
