@@ -1,5 +1,6 @@
 body {
   margin: 3em;
+  background-color: purple;
 }
 
 span {
@@ -14,11 +15,17 @@ span {
 }
 
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
   color: blue;
   text-decoration: none;
+}
+
+#logo > img {
+  width: 240px;
+  display: block;
+  margin: 0 auto;
 }
