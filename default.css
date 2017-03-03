@@ -239,3 +239,26 @@ body {
   text-align: center;
   font-size: 1.5rem;
 }
+
+/* footer */
+
+#footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+}
+
+.box > span {
+  font-size: xx-large;
+  color: #0077b5;
+  text-align: center;
+  display: block;
+}
+
+.box > h4 {
+  text-align: center;
+  color: silver;
+  padding-top: 30px;
+}
