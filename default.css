@@ -23,6 +23,7 @@ body {
   left: 0;
   height: 100vh;
   width: 100%;
+  z-index: 1;
 }
 
 .overlay {
@@ -137,7 +138,7 @@ body {
 /* featurette */
 
 .white-background {
-  height: 65vh;
+  height: 50vh;
   width: 100%;
   background-color: white;
   background-repeat: no-repeat;
@@ -145,7 +146,7 @@ body {
 }
 
 .silver-background {
-  height: 65vh;
+  height: 50vh;
   width: 100%;
   background-color: #f4f4f4;
   background-repeat: no-repeat;
@@ -154,37 +155,57 @@ body {
 
 #featurette-1 {
   position: relative;
+  overflow: hidden;
 }
 
 #featurette-2 {
   position: relative;
+  overflow: hidden;
 }
 
 #featurette-3 {
   position: relative;
+  overflow: hidden;
 }
 
-.container {
+.box {
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
   width: 90%;
 }
 
-.row {
-  vertical-align: middle;
+.column-text {
+  float: left;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.col-md-6 {
+.feature {
+  width: 35%;
+  z-index: 2;
+}
+
+.column-phone {
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.column-phone > img {
+  display: inline-block;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.col-md-6 > p {
+.column-text > p {
   padding-left: 5%;
   border-left: 1px solid;
   border-color: darkblue;
+  margin-bottom: 40px;
 }
 
 /* demo background */
@@ -206,13 +227,14 @@ body {
   margin-top: 30px;
 }
 
-.container > div > h2 {
+.box > h2 {
   color: white;
+  margin-top: 10%;
   text-align: center;
   font-size: 3rem;
 }
 
-.container > div > h5 {
+.box > h5 {
   color: white;
   text-align: center;
   font-size: 1.5rem;
